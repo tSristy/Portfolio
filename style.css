@@ -1,0 +1,18 @@
+body{
+    font-family: 'Lora', serif;
+    margin: 0%;
+}
+
+.opening{
+    /*border: 2px solid black;*/
+    width: 40%;
+    float: left;
+    padding: 20px;
+    color:  yellowgreen;
+}
+.opening img{
+    width:60%
+}
+#re{
+    color: lightcoral;
+}
