@@ -4,10 +4,14 @@ body{
 }
 .sec{
     width: 100%;
-    height: 1000px;
+    height: 1050px;
     background-image: url(img/full.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.sec-next{
+    width: 100%;
+    height: 390px;
 }
 .front-div{
     float: left;
@@ -31,20 +35,34 @@ body{
     height: 100%;
     
 }
-
-.h1{
+.exp-div{
+    width: 40%;
+    float: left;
+    height: 200px;
+    padding: 2%;
+    margin-left: 5%;
+    
+}
+#h1{
     font-size: 40px;
     color:white;
     padding-left: 4%;
     font-weight: bold;
 }
-.h2{
+#h2{
     font-size: 40px;
     text-align: right;
     color:white;
     padding-right: 4%;
     font-weight: bold;
 }
+#h3{
+    font-size: 40px;
+    color:tan;
+    padding-left: 4%;
+    font-weight: bold;
+}
+
 .name{
     font-weight: bold;
 }
@@ -54,17 +72,20 @@ p{
     /*color: rgb(99, 78, 52);*/
     color: rgb(54, 44, 44);
 }
-.hire-me{
+.button{
     text-decoration: none;
     color: white;
+    margin-left:20px;
     padding: 10px 20px;
     border-radius: 5px;
     background-image:linear-gradient(to bottom right, rosybrown, tan)
 }
-.cv{
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-image:linear-gradient(to bottom right, rosybrown, tan)
+footer p{
+    color:white;
+    text-align: center;
+    font-size: 10px;
+}
+footer{
+    padding: 1%;
+    background-color: rgb(54, 44, 44);
 }
